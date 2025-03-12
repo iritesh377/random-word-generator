@@ -1,0 +1,30 @@
+{
+    "name": "iritesh37/random-word-generator",
+    "type": "library",
+    "description": "Generates random words by combining adjectives and nouns",
+    "keywords": [
+        "adjective",
+        "noun",
+        "word",
+        "generator"
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "12.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iritesh37\\RandomWordGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ritesh Sapkota",
+            "email": "ritesh@lict.edu.np"
+        }
+    ],
+    "minimum-stability": "dev"
+}
