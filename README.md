@@ -17,7 +17,7 @@ composer require iritesh37/random-word-generator
 
 use Iritesh37\RandomWordGenerator\Generator;
 
-echo Generator::generate(); // Outputs 'autumn firefly', 'crimson meadow', etc.
+echo Generator::generate(); // Outputs 'ancient butterfly', 'celestial flower', etc.
 
 ```
 
@@ -27,7 +27,7 @@ It's also possible to use a custom separator character, by passing it as the fir
 
 use Iritesh37\RandomWordGenerator\Generator;
 
-echo Generator::generate('-'); // Outputs 'autumn-firefly', 'crimson-meadow', etc.
+echo Generator::generate('-'); // Outputs 'ancient-butterfly', 'celestial-flower', etc.
 
 ```
 
@@ -37,7 +37,7 @@ If you need words of a certain length or complexity, you can use the second argu
 
 use Iritesh37\RandomWordGenerator\Generator;
 
-echo Generator::generate('-', 4); // Outputs 'crimson-autumn-wandering-firefly', etc.
+echo Generator::generate('-', 4); // Outputs 'ancient-butterfly-celestial-flower', etc.
 
 ```
 
