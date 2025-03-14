@@ -1,6 +1,6 @@
 # Word Generator
 
-Generates creative words by randomly combining adjectives and nouns. 
+This package helps to generate creative words by randomly combining adjectives and nouns. 
 This is useful for situations in which you need to generate a name that is unique or memorable.
 
 ## Installation
